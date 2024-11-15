@@ -73,7 +73,7 @@ The frontend is developed using ReactJS to create an interactive and dynamic use
 2. AI-Powered Content Generation: Integrates with AI models for adaptive learning.
 3. CORS Middleware: Ensures secure communication between frontend and backend.
 
-   #### FRONTEND (React.js) :
+#### FRONTEND (React.js) :
 1. Login System: Simple user authentication.
 2. Chatbot Interface: Allows users to interact with the AI for tailored content.
 3. Performance Dashboard: Displays insights into user strengths, weaknesses, and progress.
