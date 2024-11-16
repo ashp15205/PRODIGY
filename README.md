@@ -33,6 +33,12 @@ This comprehensive approach allows Prodigy to offer a more effective and tailore
 
 
 
+#### Working Model:
+
+
+![1](https://github.com/user-attachments/assets/dac6c7ea-d673-4a01-a072-0515df5f1d59)
+
+
 
 ## **IMPACT:**
 Prodigy transforms how learners engage with educational material. By offering targeted assistance, adaptive feedback, and predictive performance metrics, it helps students focus on areas that need improvement and accelerates their learning curve. This personalized approach boosts user engagement, optimizes learning efficiency, and fosters deeper comprehension.
