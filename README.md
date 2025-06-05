@@ -38,13 +38,6 @@ This comprehensive approach allows Prodigy to offer a more effective and tailore
 
 
 
-#### Working Model:
-
-
-
-![1](https://github.com/user-attachments/assets/dac6c7ea-d673-4a01-a072-0515df5f1d59)
-
-
 
 ## **IMPACT:**
 Prodigy transforms how learners engage with educational material. By offering targeted assistance, adaptive feedback, and predictive performance metrics, it helps students focus on areas that need improvement and accelerates their learning curve. 
@@ -58,17 +51,6 @@ Prodigy transforms how learners engage with educational material. By offering ta
 
 ## DIRECTORIES:
 
-### BACKEND
-The backend is built using FastAPI for creating RESTful API endpoints. It handles user requests, processes data, interacts with AI models, and serves responses to the frontend.
-    
-      backend/
-      ├── app/
-      │   ├── main.py
-      │   ├── content_curation.py
-      │   ├── auth.py
-      │   ├── config.py
-      ├── requirements.txt
-      └── .env
 
 ### FRONTEND
 The frontend is developed using ReactJS to create an interactive and dynamic user interface for learners. It communicates with the backend to display personalized content and feedback.
@@ -87,23 +69,6 @@ The frontend is developed using ReactJS to create an interactive and dynamic use
     └── package.json
 
 ### INSTALLATION AND SETUP
-  #### BACKEND :
-        1. Navigate to the backend directory:
-            cd backend
-
-        2. Create a virtual environment:
-            python -m venv venv
-            source venv/bin/activate  # For Windows: venv\Scripts\activate
-
-        3. Install dependencies:
-            pip install -r requirements.txt
-
-        4. Create a .env file and add the necessary environment variables (e.g., API keys):
-            GEMINI_API_KEY=your_gemini_api_key_here
-
-        5. Run the server:
-            uvicorn main:app --reload
-
   #### FRONTEND :
         1. Navigate to the frontend directory:
             cd adaptive-learning-frontend
@@ -115,11 +80,6 @@ The frontend is developed using ReactJS to create an interactive and dynamic use
             npm start
 
 ### PROJECT DETAILS:
-  #### BACKEND (FASTAPI) :
-1. RESTful Endpoints: Handles requests for chat, feedback, and performance prediction.
-2. AI-Powered Content Generation: Integrates with AI models for adaptive learning.
-3. CORS Middleware: Ensures secure communication between frontend and backend.
-
 #### FRONTEND (React.js) :
 1. Login System: Simple user authentication.
 2. Chatbot Interface: Allows users to interact with the AI for tailored content.
@@ -127,17 +87,11 @@ The frontend is developed using ReactJS to create an interactive and dynamic use
 4. Feedback Component: Provides personalized feedback based on user interactions.
 
 ### Running the Application:
-  1. Start the backend server by running
-     
-         uvicorn main:app --reload   // in the backend directory.
-
-  2. Start the frontend server by running
+  1. Start the frontend server by running
      
           npm start   // in the frontend directory.
 
-  3. Access the application at
+  2. Access the application at
 
           http://localhost:3000.
 
-
-#### Once the application is up and running, you're good to go! Start exploring the personalized and AI-driven learning experience with Prodigy.
